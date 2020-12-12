@@ -4,3 +4,8 @@ This supervised learning model is made up of extra gradient boosting model,
 lasso, poly kernel of svr, linear and ridge regression. This models were selected
 to make up the architecture of the super learner by a selection framework which also
 optimized them enough to be plugged straight into the super learner.
+
+The major adavnatage of this model is its efficient memory utilization and less runtime
+requirement.
+
+
