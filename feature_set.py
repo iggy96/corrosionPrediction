@@ -6,8 +6,6 @@ Created on Mon Nov  9 00:26:02 2020
 """
 
 
-
-
 from defined_libraries import* 
 
 data = pd.read_csv('trainingData.csv')
