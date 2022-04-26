@@ -1,4 +1,4 @@
-# super-learner
+# The Super Learner
 The super-learner model is a variation of stacking or k-fold cross-validation where individual models would be trained on k-fold data split. A final meta-model would then be trained on their output, also called an out-of-fold prediction from each model. Overall, the super learner is an important tool implemented in a very limited number of studies to reduce parametric assumptions, boost predictive accuracy, and avoid overfitting. In this work, a variant of the super learner model was developed strictly to predict 3C steel metal's corrosion rate in seawater using five algorithms chosen by the developed selection framework. All five algorithms are trained, tested individually on the same dataset, and compared with the super learner model; they are combined to create five other algorithms trained and tested on the same dataset. These five selected algorithms performed the best individually on the same dataset to be put forward by the selection framework for implementation in developing the super learner model. The algorithms chosen by the developed selection framework are:
 
 - Linear regression
