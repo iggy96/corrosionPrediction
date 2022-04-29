@@ -4,13 +4,6 @@ Created on Sun Nov  8 20:14:31 2020
 
 @author: oseho
 """
-import lightgbm as lgb
-
-from sklearn.linear_model import Lasso, LassoCV
-
-from statistics import mean
-
-import operator
 
 import numpy as np
 
@@ -68,10 +61,5 @@ from sklearn.linear_model import HuberRegressor
 
 import xgboost as xgb
 
-from scipy.stats import randint as sp_randint
-
-import scipy.stats as stats
-
-from sklearn.model_selection import RandomizedSearchCV
-
+from sklearn.linear_model import Lasso, LassoCV
 

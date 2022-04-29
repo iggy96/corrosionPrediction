@@ -6,9 +6,11 @@ Created on Mon Nov  9 00:26:02 2020
 """
 
 
+
+
 from defined_libraries import* 
 
-data = pd.read_csv('trainingData.csv')
+data = pd.read_csv('training data_including_test_data_corrosion_rate_confirmation.csv')
 
 data.head() # check the first five values of the full dataset
 
@@ -37,3 +39,4 @@ print(type(y))  # check the data type of y
 print(y.shape)  # check the shape of y
 
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, train_size=0.90,test_size=0.10, random_state = 1)
+
